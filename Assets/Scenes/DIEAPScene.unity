@@ -382,7 +382,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1262618164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -645,6 +645,10 @@ PrefabInstance:
     - target: {fileID: 2722896806718886375, guid: 6d13d89669f2dba44996cfd0a6ce7856, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4283611646018484458, guid: 6d13d89669f2dba44996cfd0a6ce7856, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5310030362378481267, guid: 6d13d89669f2dba44996cfd0a6ce7856, type: 3}
       propertyPath: onHandDeactivate.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
