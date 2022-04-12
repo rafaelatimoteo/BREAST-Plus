@@ -31,9 +31,9 @@ namespace Microsoft.MixedReality.Toolkit.UI
             }
         }
 
-        [Range(0, 1)]
+        [Range(0, 4)]
         [SerializeField]
-        private float sliderValue = 0.5f;
+        private float sliderValue = 2f;
         public float SliderValue
         {
             get { return sliderValue; }
@@ -158,7 +158,7 @@ namespace Microsoft.MixedReality.Toolkit.UI
 
         [SerializeField]
         [Tooltip("Where the slider track starts, as distance from center along slider axis, in local space units.")]
-        private float sliderStartDistance = -.5f;
+        private float sliderStartDistance = -2f;
         public float SliderStartDistance
         {
             get { return sliderStartDistance; }
@@ -167,7 +167,7 @@ namespace Microsoft.MixedReality.Toolkit.UI
 
         [SerializeField]
         [Tooltip("Where the slider track ends, as distance from center along slider axis, in local space units.")]
-        private float sliderEndDistance = .5f;
+        private float sliderEndDistance = 2f;
         public float SliderEndDistance
         {
             get { return sliderEndDistance; }
