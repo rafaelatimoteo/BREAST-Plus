@@ -4,19 +4,16 @@ using UnityEngine;
 
 public class SkinButton : MonoBehaviour
 {
-    static GameObject skin;
+    public static GameObject skin;
 
     // Start is called before the first frame update
     void Start()
     {
-        if (skin == null)
-        {
-            skin = GetComponent<GameObject>();
-        }
+        skin = gameObject;
     }
 
     // Update is called once per frame
-    void ShowOrHide()
+    public void ShowOrHide()
     {
         if (skin.activeSelf == true) { skin.SetActive(false); }
         if (skin.activeSelf == false) { skin.SetActive(true); }

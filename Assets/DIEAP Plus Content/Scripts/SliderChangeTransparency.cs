@@ -17,20 +17,18 @@ public class SliderChangeTransparency : MonoBehaviour
         {
             rend = GetComponent<MeshRenderer>();
         }
-
-        rend.material.shader = Shader.Find("Standard");
     }
 
     // Update is called once per frame
     public void UpdateTransparencyValue()
     {
-        Debug.Log(transparencySlider.SliderValue);
+        //Debug.Log(transparencySlider.SliderValue);
 
         newValue = transparencySlider.SliderValue / 255;
 
         convertedValue = (newValue * 20) / 255;
 
-        Debug.Log("NEW: " + convertedValue);
+        //Debug.Log("NEW: " + convertedValue);
 
         rend.material.SetVector("_Color", new Vector4(1, 1, 1, (float)newValue));
         
