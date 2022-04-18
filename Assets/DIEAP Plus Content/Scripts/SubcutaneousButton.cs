@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SubcutaneousButton : MonoBehaviour
 {
-    static GameObject subcutaneous;
+    public GameObject subcutaneous;
 
     // Start is called before the first frame update
     void Start()
@@ -16,9 +16,8 @@ public class SubcutaneousButton : MonoBehaviour
     }
 
     // Update is called once per frame
-    void ShowOrHide()
+    public void ShowOrHide()
     {
-        if (subcutaneous.activeSelf == true) { subcutaneous.SetActive(false); }
-        if (subcutaneous.activeSelf == false) { subcutaneous.SetActive(true); }
+        subcutaneous.SetActive(!subcutaneous.activeSelf);
     }
 }

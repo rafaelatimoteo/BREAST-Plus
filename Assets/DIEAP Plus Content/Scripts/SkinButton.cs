@@ -18,7 +18,7 @@ public class SkinButton : MonoBehaviour
     // Update is called once per frame
     public void ShowOrHide()
     {
-        if (skin.activeSelf == true) { skin.SetActive(false); }
-        if (skin.activeSelf == false) { skin.SetActive(true); }
+
+        skin.SetActive(!skin.activeSelf);
     }
 }
