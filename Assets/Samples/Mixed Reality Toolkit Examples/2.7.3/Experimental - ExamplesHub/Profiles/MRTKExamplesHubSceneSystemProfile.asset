@@ -18,7 +18,7 @@ MonoBehaviour:
     Name: DefaultManagerScene
     Path: Assets/MRTK/Services/SceneSystem/SceneSystemResources/DefaultManagerScene.unity
     Included: 1
-    BuildIndex: 0
+    BuildIndex: -1
     Tag: Untagged
     Asset: {fileID: 102900000, guid: ae7bb08d297fb69408695d8de0962524, type: 3}
   useLightingScene: 0
@@ -27,14 +27,14 @@ MonoBehaviour:
   - Name: DefaultLightingScene
     Path: Assets/MRTK/Services/SceneSystem/SceneSystemResources/DefaultLightingScene.unity
     Included: 1
-    BuildIndex: 2
+    BuildIndex: -1
     Tag: Untagged
     Asset: {fileID: 102900000, guid: 7e54e36c44f826c438c95da79f8de638, type: 3}
   contentScenes:
   - Name: MRTKExamplesHubMainMenu
     Path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Experimental - ExamplesHub/Scenes/MRTKExamplesHubMainMenu.unity
     Included: 1
-    BuildIndex: 1
+    BuildIndex: -1
     Tag: Untagged
     Asset: {fileID: 102900000, guid: 63a00118e809c754f9c7911bb85d635f, type: 3}
   - Name: HandInteractionExamples
@@ -51,7 +51,7 @@ MonoBehaviour:
     Asset: {fileID: 102900000, guid: e532091edada3e04aa706112e8d5f310, type: 3}
   - Name: TooltipExamples
     Path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Demos - UX/Tooltips/Scenes/TooltipExamples.unity
-    Included: 0
+    Included: 1
     BuildIndex: -1
     Tag: Untagged
     Asset: {fileID: 102900000, guid: de90a43947eced441b4c426e11f35f28, type: 3}
@@ -63,13 +63,13 @@ MonoBehaviour:
     Asset: {fileID: 102900000, guid: c6b1477d31864dff836e9738518eae60, type: 3}
   - Name: BoundingBoxExamples
     Path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Demos - UX/BoundingBox/Scenes/BoundingBoxExamples.unity
-    Included: 0
+    Included: 1
     BuildIndex: -1
     Tag: Untagged
     Asset: {fileID: 102900000, guid: 9da574c0affd04d42a6b1e5db09e82b4, type: 3}
   - Name: PressableButtonExample
     Path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Demos - UX/PressableButton/Scenes/PressableButtonExample.unity
-    Included: 0
+    Included: 1
     BuildIndex: -1
     Tag: Untagged
     Asset: {fileID: 102900000, guid: b2d06bb8d7f107d4783a56c796c5c120, type: 3}
@@ -81,13 +81,13 @@ MonoBehaviour:
     Asset: {fileID: 102900000, guid: 2792ec9767804e644906ab978f2eed23, type: 3}
   - Name: SlateExample
     Path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Demos - UX/Slate/SlateExample.unity
-    Included: 0
+    Included: 1
     BuildIndex: -1
     Tag: Untagged
     Asset: {fileID: 102900000, guid: 86e8b0c6246dbb74aa04ecd40a57d89c, type: 3}
   - Name: SliderExample
     Path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Demos - UX/Slider/Scenes/SliderExample.unity
-    Included: 0
+    Included: 1
     BuildIndex: -1
     Tag: Untagged
     Asset: {fileID: 102900000, guid: 086aad2912678d04e968264b2398004b, type: 3}

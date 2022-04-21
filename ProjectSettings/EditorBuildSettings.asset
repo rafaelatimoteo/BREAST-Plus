@@ -5,15 +5,33 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/MRTK/Services/SceneSystem/SceneSystemResources/DefaultManagerScene.unity
     guid: ae7bb08d297fb69408695d8de0962524
-  - enabled: 1
+  - enabled: 0
     path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Experimental - ExamplesHub/Scenes/MRTKExamplesHubMainMenu.unity
     guid: 63a00118e809c754f9c7911bb85d635f
-  - enabled: 1
+  - enabled: 0
     path: Assets/MRTK/Services/SceneSystem/SceneSystemResources/DefaultLightingScene.unity
     guid: 7e54e36c44f826c438c95da79f8de638
+  - enabled: 0
+    path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Demos - UX/Tooltips/Scenes/TooltipExamples.unity
+    guid: de90a43947eced441b4c426e11f35f28
+  - enabled: 0
+    path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Demos - UX/BoundingBox/Scenes/BoundingBoxExamples.unity
+    guid: 9da574c0affd04d42a6b1e5db09e82b4
+  - enabled: 0
+    path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Demos - UX/PressableButton/Scenes/PressableButtonExample.unity
+    guid: b2d06bb8d7f107d4783a56c796c5c120
+  - enabled: 0
+    path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Demos - UX/Slate/SlateExample.unity
+    guid: 86e8b0c6246dbb74aa04ecd40a57d89c
+  - enabled: 0
+    path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Demos - UX/Slider/Scenes/SliderExample.unity
+    guid: 086aad2912678d04e968264b2398004b
+  - enabled: 1
+    path: Assets/DIEAP Plus Content/DIEAPScene.unity
+    guid: d6865c25a92f7054793ad37c25f571b4
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 21fdd863b2432704aa3df9ed8f665dbb, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 46a68095e091f6545ac99ab9f9684e7c, type: 2}
