@@ -31,13 +31,13 @@ public class ModelPosition : MonoBehaviour
 
     public void moveUp()
     {
-        model.transform.position = model.transform.position + new Vector3(0, -0.001f, 0);
+        model.transform.position = model.transform.position + new Vector3(0, 0.001f, 0);
 
     }
 
     public void moveDown()
     {
-        model.transform.position = model.transform.position + new Vector3(0, 0.001f, 0);
+        model.transform.position = model.transform.position + new Vector3(0, -0.001f, 0);
 
     }
 
