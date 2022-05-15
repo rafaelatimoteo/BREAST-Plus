@@ -20,5 +20,6 @@ public class SkinButton : MonoBehaviour
     {
 
         skin.SetActive(!skin.activeSelf);
+
     }
 }

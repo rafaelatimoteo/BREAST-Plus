@@ -134,7 +134,7 @@ MonoBehaviour:
     Tag: Untagged
     Asset: {fileID: 102900000, guid: 58e887502677eb649950ada695c4ad38, type: 3}
   - Name: SceneUnderstandingExample
-    Path: Assets/MRTK/Examples/Experimental/SceneUnderstanding/Scenes/SceneUnderstandingExample.unity
+    Path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Experimental - SceneUnderstanding/Scenes/SceneUnderstandingExample.unity
     Included: 0
     BuildIndex: -1
     Tag: Untagged

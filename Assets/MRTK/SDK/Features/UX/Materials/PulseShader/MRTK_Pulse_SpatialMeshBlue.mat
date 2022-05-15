@@ -68,5 +68,5 @@ Material:
     m_Colors:
     - _Fill_Color_: {r: 0.36320752, g: 0.8691418, b: 1, a: 1}
     - _Line_Color_: {r: 0, g: 0.14628828, b: 0.8679245, a: 1}
-    - _Pulse_Origin_: {r: 0.07569495, g: -0.36143714, b: 0.65080976, a: 0}
+    - _Pulse_Origin_: {r: -0.07253702, g: -0.3432245, b: 0.6574618, a: 0}
   m_BuildTextureStacks: []
