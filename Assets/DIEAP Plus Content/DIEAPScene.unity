@@ -7542,6 +7542,10 @@ PrefabInstance:
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 763144326}
+    - target: {fileID: 2021644961248080099, guid: 173a47a5f46647c4385ca6b1ab660901, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2021644961248080109, guid: 173a47a5f46647c4385ca6b1ab660901, type: 3}
       propertyPath: OnValueUpdated.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -7585,6 +7589,10 @@ PrefabInstance:
     - target: {fileID: 3624261277121376910, guid: 173a47a5f46647c4385ca6b1ab660901, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: ModelPosition, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4196938488147872773, guid: 173a47a5f46647c4385ca6b1ab660901, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4262677048305365428, guid: 173a47a5f46647c4385ca6b1ab660901, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -7746,6 +7754,10 @@ PrefabInstance:
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 7709779086274418883, guid: 173a47a5f46647c4385ca6b1ab660901, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7782173984819221173, guid: 173a47a5f46647c4385ca6b1ab660901, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -7787,6 +7799,10 @@ PrefabInstance:
       value: NearMenu4x1
       objectReference: {fileID: 0}
     - target: {fileID: 8166998297000875319, guid: 173a47a5f46647c4385ca6b1ab660901, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8608768269720166574, guid: 173a47a5f46647c4385ca6b1ab660901, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
