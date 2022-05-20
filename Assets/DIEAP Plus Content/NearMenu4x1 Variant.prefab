@@ -24,18 +24,19 @@ MonoBehaviour:
   faceUserDefinedTargetTransform: 0
   targetToFace: {fileID: 0}
   pivotAxis: 7
-  minDistance: 0.4
-  maxDistance: 0.4
-  defaultDistance: 0.4
+  minDistance: 0.5
+  maxDistance: 0.6
+  defaultDistance: 0.6
   maxViewHorizontalDegrees: 30
-  maxViewVerticalDegrees: 30
+  maxViewVerticalDegrees: 45
   reorientWhenOutsideParameters: 1
   orientToControllerDeadzoneDegrees: 60
   ignoreAngleClamp: 0
   ignoreDistanceClamp: 0
   ignoreReferencePitchAndRoll: 0
   pitchOffset: 0
-  verticalMaxDistance: 0
+  verticalMaxDistance: 1
+  verticalMinDistance: 0
   angularClampMode: 0
   tetherAngleSteps: 6
   boundsScaler: 1
@@ -430,6 +431,30 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3864793685903309806, guid: 40b588bd40632eb41a0af374d91c4fc9, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864793685903309806, guid: 40b588bd40632eb41a0af374d91c4fc9, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864793685903309806, guid: 40b588bd40632eb41a0af374d91c4fc9, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4253684158462407038}
+    - target: {fileID: 3864793685903309806, guid: 40b588bd40632eb41a0af374d91c4fc9, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864793685903309806, guid: 40b588bd40632eb41a0af374d91c4fc9, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3864793685903309806, guid: 40b588bd40632eb41a0af374d91c4fc9, type: 3}
+      propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3882407038152374419, guid: 40b588bd40632eb41a0af374d91c4fc9, type: 3}
       propertyPath: m_fontSize
       value: 0.05
@@ -663,6 +688,10 @@ PrefabInstance:
       value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 5870436705948571620, guid: 40b588bd40632eb41a0af374d91c4fc9, type: 3}
+      propertyPath: m_text
+      value: PIN MODEL
+      objectReference: {fileID: 0}
+    - target: {fileID: 5870436705948571620, guid: 40b588bd40632eb41a0af374d91c4fc9, type: 3}
       propertyPath: m_fontSize
       value: 0.05
       objectReference: {fileID: 0}
@@ -810,6 +839,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8833344925457415974, guid: 40b588bd40632eb41a0af374d91c4fc9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8842348844085379052, guid: 40b588bd40632eb41a0af374d91c4fc9, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
@@ -883,6 +916,11 @@ PrefabInstance:
 --- !u!1 &8166998297000875319 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3515418990045158255, guid: 40b588bd40632eb41a0af374d91c4fc9, type: 3}
+  m_PrefabInstance: {fileID: 4728295119780367960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4253684158462407038 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8833344925457415974, guid: 40b588bd40632eb41a0af374d91c4fc9, type: 3}
   m_PrefabInstance: {fileID: 4728295119780367960}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &885713509050992339 stripped

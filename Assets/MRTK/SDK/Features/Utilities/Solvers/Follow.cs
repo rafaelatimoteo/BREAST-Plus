@@ -610,7 +610,7 @@ namespace Microsoft.MixedReality.Toolkit.Utilities.Solvers
             // Apply vertical clamp on reference
             if (VerticalMaxDistance > 0)
             {
-                clampedPosition.y = Mathf.Clamp(clampedPosition.y, ReferencePosition.y - VerticalMaxDistance, ReferencePosition.y + VerticalMaxDistance);
+                clampedPosition.y = Mathf.Clamp(clampedPosition.y, ReferencePosition.y + VerticalMaxDistance, ReferencePosition.y + VerticalMaxDistance);
             }
 
             return Vector3EqualEpsilon(clampedPosition, currentPosition, 0.0001f);
