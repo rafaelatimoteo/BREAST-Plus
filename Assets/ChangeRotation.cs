@@ -40,4 +40,48 @@ public class ChangeRotation : MonoBehaviour
         }
 
     }
+
+    public void rotationY()
+    {
+        newValue = rotationSliderY.SliderValue * 0.02;
+        Debug.Log(newValue);
+
+        if (newValue == 0 || newValue > 0.018)
+        {
+            model.transform.position = model.transform.position;
+        }
+
+        else if (newValue > 0.01)
+        {
+            model.transform.Rotate(0, (float)newValue, 0, Space.Self);
+        }
+
+        else
+        {
+            model.transform.Rotate(0, -(float)newValue, 0, Space.Self);
+        }
+
+    }
+
+    public void rotationZ()
+    {
+        newValue = rotationSliderZ.SliderValue * 0.02;
+        Debug.Log(newValue);
+
+        if (newValue == 0 || newValue > 0.018)
+        {
+            model.transform.position = model.transform.position;
+        }
+
+        else if (newValue > 0.01)
+        {
+            model.transform.Rotate(0, 0, (float)newValue, Space.Self);
+        }
+
+        else
+        {
+            model.transform.Rotate(0, 0, -(float)newValue, Space.Self);
+        }
+
+    }
 }
