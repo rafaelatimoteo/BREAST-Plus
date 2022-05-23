@@ -33,7 +33,7 @@ public class ChangeRotation : MonoBehaviour
         {
             model.transform.Rotate((float)newValue, 0, 0, Space.Self);
         }
-       
+
         else
         {
             model.transform.Rotate(-(float)newValue, 0, 0, Space.Self);
