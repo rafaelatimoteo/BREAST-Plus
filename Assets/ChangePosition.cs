@@ -21,15 +21,19 @@ public class ChangePosition : MonoBehaviour
     // Update is called once per frame
     public void positionX()
     {
-        newValue = positionSliderX.SliderValue / 1000;
+        newValue = positionSliderX.SliderValue / 50;
         Debug.Log(newValue);
 
         if (newValue > 0.0005) {
-            model.transform.position = model.transform.position + new Vector3((float)newValue, 0, 0);
+            model.transform.position = new Vector3((float)newValue, model.transform.position.y, model.transform.position.z);
+        }
+        else if (newValue == 0 || newValue > 0.0009)
+        {
+            model.transform.position = model.transform.position;
         }
         else
         {
-        model.transform.position = model.transform.position + new Vector3(-(float)newValue, 0, 0);
+            model.transform.position = model.transform.position + new Vector3(-(float)newValue, 0, 0);
         }
 
     }

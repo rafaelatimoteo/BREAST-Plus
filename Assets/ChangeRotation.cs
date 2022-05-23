@@ -21,13 +21,19 @@ public class ChangeRotation : MonoBehaviour
     // Update is called once per frame
     public void rotationX()
     {
-        newValue = rotationSliderX.SliderValue * 0.1;
+        newValue = rotationSliderX.SliderValue * 0.02;
         Debug.Log(newValue);
 
-        if (newValue > 0.05018)
+        if (newValue == 0 || newValue > 0.018)
+        {
+            model.transform.position = model.transform.position;
+        }
+
+        else if (newValue > 0.01)
         {
             model.transform.Rotate((float)newValue, 0, 0, Space.Self);
         }
+       
         else
         {
             model.transform.Rotate(-(float)newValue, 0, 0, Space.Self);
