@@ -133,7 +133,7 @@ Material:
     - _InstancedColor: 0
     - _Iridescence: 1
     - _IridescenceAngle: -0.78
-    - _IridescenceIntensity: 0.32
+    - _IridescenceIntensity: 0.221
     - _IridescenceThreshold: 0.05
     - _Metallic: 0
     - _MipmapBias: -2
