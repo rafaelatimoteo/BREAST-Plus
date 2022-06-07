@@ -3398,11 +3398,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1831300811 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3863015010800149014, guid: 662ddbdb006803645873671357f1a79d, type: 3}
-  m_PrefabInstance: {fileID: 3931481278177784672}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1868588910 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6645301466570594424, guid: 662ddbdb006803645873671357f1a79d, type: 3}
@@ -4221,6 +4216,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 59d1a944c3539e948a06381c3e5d6b3d, type: 2}
+    - target: {fileID: 2007435608234527236, guid: 662ddbdb006803645873671357f1a79d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3cb2d87ea9463e642b8419db5ab1b7cb, type: 2}
     - target: {fileID: 2007435608434580783, guid: 662ddbdb006803645873671357f1a79d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -4631,15 +4630,15 @@ PrefabInstance:
       objectReference: {fileID: 845622249}
     - target: {fileID: 8838585463933347550, guid: 662ddbdb006803645873671357f1a79d, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8838585463933347550, guid: 662ddbdb006803645873671357f1a79d, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8838585463933347550, guid: 662ddbdb006803645873671357f1a79d, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
-      value: 6
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8838585463933347550, guid: 662ddbdb006803645873671357f1a79d, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
@@ -4656,11 +4655,11 @@ PrefabInstance:
     - target: {fileID: 8838585463933347550, guid: 662ddbdb006803645873671357f1a79d, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1452061552}
     - target: {fileID: 8838585463933347550, guid: 662ddbdb006803645873671357f1a79d, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
-      objectReference: {fileID: 1831300811}
+      objectReference: {fileID: 1452061552}
     - target: {fileID: 8838585463933347550, guid: 662ddbdb006803645873671357f1a79d, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
@@ -4687,11 +4686,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8838585463933347550, guid: 662ddbdb006803645873671357f1a79d, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: SetActive
+      value: buttonColor
       objectReference: {fileID: 0}
     - target: {fileID: 8838585463933347550, guid: 662ddbdb006803645873671357f1a79d, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
-      value: SetActive
+      value: buttonColor
       objectReference: {fileID: 0}
     - target: {fileID: 8838585463933347550, guid: 662ddbdb006803645873671357f1a79d, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
@@ -4699,11 +4698,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8838585463933347550, guid: 662ddbdb006803645873671357f1a79d, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: PressedButton, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8838585463933347550, guid: 662ddbdb006803645873671357f1a79d, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
-      value: UnityEngine.GameObject, UnityEngine
+      value: PressedButton, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8838585463933347550, guid: 662ddbdb006803645873671357f1a79d, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_TargetAssemblyTypeName
@@ -4711,7 +4710,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8838585463933347550, guid: 662ddbdb006803645873671357f1a79d, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8838585463933347550, guid: 662ddbdb006803645873671357f1a79d, type: 3}
       propertyPath: OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
