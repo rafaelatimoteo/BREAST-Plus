@@ -5,6 +5,7 @@ using UnityEngine;
 public class PressedButton : MonoBehaviour
 {
     public GameObject button;
+    public GameObject gobject;
     public GameObject colorOn;
     public GameObject colorOff;
 
@@ -27,6 +28,22 @@ public class PressedButton : MonoBehaviour
         }
 
         else {
+            colorOn.SetActive(false);
+            colorOff.SetActive(true);
+        }
+    }
+
+    public void modelIsFixated()
+    {
+        enabled = gobject.GetComponent<Microsoft.MixedReality.Toolkit.UI.ObjectManipulator>().isActiveAndEnabled;
+
+        if(enabled)
+        {
+            colorOn.SetActive(true);
+            colorOff.SetActive(false);
+        }
+        else
+        {
             colorOn.SetActive(false);
             colorOff.SetActive(true);
         }

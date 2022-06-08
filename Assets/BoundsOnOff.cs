@@ -7,6 +7,8 @@ public class BoundsOnOff : MonoBehaviour
 {
     public GameObject model;
     public BoundsControl boundsControl;
+    public GameObject colorOn;
+    public GameObject colorOff;
 
     // Start is called before the first frame update
     void Start()
@@ -21,5 +23,17 @@ public class BoundsOnOff : MonoBehaviour
     public void OnOff()
     {
         boundsControl.Active = !(boundsControl.Active);
+
+        if (boundsControl.Active)
+        {
+            colorOn.SetActive(true);
+            colorOff.SetActive(false);
+        }
+
+        else
+        {
+            colorOn.SetActive(false);
+            colorOff.SetActive(true);
+        }
     }
 }
