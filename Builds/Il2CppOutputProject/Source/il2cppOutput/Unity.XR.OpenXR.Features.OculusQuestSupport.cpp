@@ -65,6 +65,52 @@ struct ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52_marshaled_com
 {
 };
 
+// System.Boolean
+struct Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37 
+{
+public:
+	// System.Boolean System.Boolean::m_value
+	bool ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37, ___m_value_0)); }
+	inline bool get_m_value_0() const { return ___m_value_0; }
+	inline bool* get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(bool value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+struct Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_StaticFields
+{
+public:
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+
+public:
+	inline static int32_t get_offset_of_TrueString_5() { return static_cast<int32_t>(offsetof(Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_StaticFields, ___TrueString_5)); }
+	inline String_t* get_TrueString_5() const { return ___TrueString_5; }
+	inline String_t** get_address_of_TrueString_5() { return &___TrueString_5; }
+	inline void set_TrueString_5(String_t* value)
+	{
+		___TrueString_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___TrueString_5), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_FalseString_6() { return static_cast<int32_t>(offsetof(Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_StaticFields, ___FalseString_6)); }
+	inline String_t* get_FalseString_6() const { return ___FalseString_6; }
+	inline String_t** get_address_of_FalseString_6() { return &___FalseString_6; }
+	inline void set_FalseString_6(String_t* value)
+	{
+		___FalseString_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___FalseString_6), (void*)value);
+	}
+};
+
+
 // System.IntPtr
 struct IntPtr_t 
 {
@@ -198,6 +244,8 @@ public:
 	int32_t ___priority_12;
 	// System.Boolean UnityEngine.XR.OpenXR.Features.OpenXRFeature::required
 	bool ___required_13;
+	// System.Boolean UnityEngine.XR.OpenXR.Features.OpenXRFeature::internalFieldsUpdated
+	bool ___internalFieldsUpdated_14;
 
 public:
 	inline static int32_t get_offset_of_m_enabled_4() { return static_cast<int32_t>(offsetof(OpenXRFeature_tBDE19E44A01E5E54925EAF67574691F11E88CDAA, ___m_enabled_4)); }
@@ -276,6 +324,14 @@ public:
 	{
 		___required_13 = value;
 	}
+
+	inline static int32_t get_offset_of_internalFieldsUpdated_14() { return static_cast<int32_t>(offsetof(OpenXRFeature_tBDE19E44A01E5E54925EAF67574691F11E88CDAA, ___internalFieldsUpdated_14)); }
+	inline bool get_internalFieldsUpdated_14() const { return ___internalFieldsUpdated_14; }
+	inline bool* get_address_of_internalFieldsUpdated_14() { return &___internalFieldsUpdated_14; }
+	inline void set_internalFieldsUpdated_14(bool value)
+	{
+		___internalFieldsUpdated_14 = value;
+	}
 };
 
 struct OpenXRFeature_tBDE19E44A01E5E54925EAF67574691F11E88CDAA_StaticFields
@@ -299,8 +355,27 @@ public:
 struct OculusQuestFeature_tCBC4ACD65C13EBA62B260C6704F476FAF1E9B5E4  : public OpenXRFeature_tBDE19E44A01E5E54925EAF67574691F11E88CDAA
 {
 public:
+	// System.Boolean UnityEngine.XR.OpenXR.Features.OculusQuestSupport.OculusQuestFeature::targetQuest
+	bool ___targetQuest_17;
+	// System.Boolean UnityEngine.XR.OpenXR.Features.OculusQuestSupport.OculusQuestFeature::targetQuest2
+	bool ___targetQuest2_18;
 
 public:
+	inline static int32_t get_offset_of_targetQuest_17() { return static_cast<int32_t>(offsetof(OculusQuestFeature_tCBC4ACD65C13EBA62B260C6704F476FAF1E9B5E4, ___targetQuest_17)); }
+	inline bool get_targetQuest_17() const { return ___targetQuest_17; }
+	inline bool* get_address_of_targetQuest_17() { return &___targetQuest_17; }
+	inline void set_targetQuest_17(bool value)
+	{
+		___targetQuest_17 = value;
+	}
+
+	inline static int32_t get_offset_of_targetQuest2_18() { return static_cast<int32_t>(offsetof(OculusQuestFeature_tCBC4ACD65C13EBA62B260C6704F476FAF1E9B5E4, ___targetQuest2_18)); }
+	inline bool get_targetQuest2_18() const { return ___targetQuest2_18; }
+	inline bool* get_address_of_targetQuest2_18() { return &___targetQuest2_18; }
+	inline void set_targetQuest2_18(bool value)
+	{
+		___targetQuest2_18 = value;
+	}
 };
 
 #ifdef __clang__
@@ -328,6 +403,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OpenXRFeature__ctor_mE2EE89538F7C55FF009
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OculusQuestFeature__ctor_m4970DAE3DE765F70C8353B4B0523C844AA9A62FF (OculusQuestFeature_tCBC4ACD65C13EBA62B260C6704F476FAF1E9B5E4 * __this, const RuntimeMethod* method)
 {
 	{
+		// public bool targetQuest = true;
+		__this->set_targetQuest_17((bool)1);
+		// public bool targetQuest2 = true;
+		__this->set_targetQuest2_18((bool)1);
 		OpenXRFeature__ctor_mE2EE89538F7C55FF00937214A625B1B7E3499068(__this, /*hidden argument*/NULL);
 		return;
 	}

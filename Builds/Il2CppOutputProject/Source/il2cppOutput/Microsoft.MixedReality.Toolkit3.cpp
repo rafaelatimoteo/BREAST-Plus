@@ -37914,7 +37914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2DExtensions_FillPixels_mC89B4CC9
 		Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * L_2 = ___texture2D0;
 		NullCheck(L_2);
 		int32_t L_3;
-		L_3 = VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_2);
+		L_3 = VirtFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_2);
 		if ((((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_0, (int32_t)L_1))) > ((int32_t)L_3)))
 		{
 			goto IL_0017;
@@ -37926,7 +37926,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2DExtensions_FillPixels_mC89B4CC9
 		Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * L_6 = ___texture2D0;
 		NullCheck(L_6);
 		int32_t L_7;
-		L_7 = VirtFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_6);
+		L_7 = VirtFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_6);
 		if ((((int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_4, (int32_t)L_5))) <= ((int32_t)L_7)))
 		{
 			goto IL_001d;
@@ -37989,7 +37989,7 @@ IL_003f:
 		Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * L_22 = ___texture2D0;
 		NullCheck(L_22);
 		int32_t L_23;
-		L_23 = VirtFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_22);
+		L_23 = VirtFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_22);
 		int32_t L_24 = ___row1;
 		int32_t L_25 = ___height4;
 		int32_t L_26 = ___width3;
@@ -38010,11 +38010,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2DExtensions_FillPixels_mB0B37AF9
 		Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * L_1 = ___texture2D0;
 		NullCheck(L_1);
 		int32_t L_2;
-		L_2 = VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_1);
+		L_2 = VirtFuncInvoker0< int32_t >::Invoke(5 /* System.Int32 UnityEngine.Texture::get_width() */, L_1);
 		Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * L_3 = ___texture2D0;
 		NullCheck(L_3);
 		int32_t L_4;
-		L_4 = VirtFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_3);
+		L_4 = VirtFuncInvoker0< int32_t >::Invoke(7 /* System.Int32 UnityEngine.Texture::get_height() */, L_3);
 		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_5 = ___fillColor1;
 		Texture2DExtensions_FillPixels_mC89B4CC9A28558C5AC1DEDF013D5DB056650DF28(L_0, 0, 0, L_2, L_4, L_5, /*hidden argument*/NULL);
 		// }

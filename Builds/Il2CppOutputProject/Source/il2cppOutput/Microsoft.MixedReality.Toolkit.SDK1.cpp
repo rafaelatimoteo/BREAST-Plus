@@ -33603,7 +33603,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoundsControl_TransformTarget_mF3CD30148
 		}
 	}
 	{
-		// Vector3 initDir = Vector3.ProjectOnPlane(initialGrabPoint - Target.transform.position, currentRotationAxis).normalized;
+		// Vector3 initDir = Vector3.ProjectOnPlane((initialGrabPoint - Target.transform.position), currentRotationAxis).normalized;
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_10 = __this->get_initialGrabPoint_49();
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_11;
 		L_11 = BoundsControl_get_Target_m6E7CC0C993A792341485AF7F06B5F27D9673E2AF(__this, /*hidden argument*/NULL);
@@ -33621,7 +33621,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoundsControl_TransformTarget_mF3CD30148
 		V_4 = L_16;
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_17;
 		L_17 = Vector3_get_normalized_m2FA6DF38F97BDA4CCBDAE12B9FE913A241DAC8D5((Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E *)(&V_4), /*hidden argument*/NULL);
-		// Vector3 currentDir = Vector3.ProjectOnPlane(currentGrabPoint - Target.transform.position, currentRotationAxis).normalized;
+		// Vector3 currentDir = Vector3.ProjectOnPlane((currentGrabPoint - Target.transform.position), currentRotationAxis).normalized;
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_18 = __this->get_currentGrabPoint_50();
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_19;
 		L_19 = BoundsControl_get_Target_m6E7CC0C993A792341485AF7F06B5F27D9673E2AF(__this, /*hidden argument*/NULL);
@@ -34162,7 +34162,7 @@ IL_03bc:
 		}
 	}
 	{
-		// Vector3 translateVectorAlongAxis = Vector3.Project(currentGrabPoint - initialGrabPoint, currentTranslationAxis);
+		// Vector3 translateVectorAlongAxis = Vector3.Project((currentGrabPoint - initialGrabPoint), currentTranslationAxis);
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_155 = __this->get_currentGrabPoint_50();
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_156 = __this->get_initialGrabPoint_49();
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_157;
@@ -35472,12 +35472,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoundsControl__ctor_m390F210C339C0DB6C82
 		__this->set_boxPadding_10(L_0);
 		// private bool hideElementsInInspector = true;
 		__this->set_hideElementsInInspector_18((bool)1);
-		// private float rotateLerpTime = 0.001f;
-		__this->set_rotateLerpTime_20((0.00100000005f));
+		// private float rotateLerpTime = 0.6f;
+		__this->set_rotateLerpTime_20((0.600000024f));
 		// private float scaleLerpTime = 0.001f;
 		__this->set_scaleLerpTime_21((0.00100000005f));
-		// private float translateLerpTime = 0.001f;
-		__this->set_translateLerpTime_22((0.00100000005f));
+		// private float translateLerpTime = 0.9f;
+		__this->set_translateLerpTime_22((0.899999976f));
 		// private bool enableConstraints = true;
 		__this->set_enableConstraints_23((bool)1);
 		// private UnityEvent rotateStarted = new UnityEvent();

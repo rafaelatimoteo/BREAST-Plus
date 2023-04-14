@@ -21530,7 +21530,7 @@ IL_0115:
 		}
 	}
 	{
-		// clampedPosition.y = Mathf.Clamp(clampedPosition.y, ReferencePosition.y - VerticalMaxDistance, ReferencePosition.y + VerticalMaxDistance);
+		// clampedPosition.y = Mathf.Clamp(clampedPosition.y, ReferencePosition.y + VerticalMaxDistance, ReferencePosition.y + VerticalMaxDistance);
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * L_55 = ___clampedPosition3;
 		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * L_56 = ___clampedPosition3;
 		float L_57 = L_56->get_y_3();
@@ -21545,7 +21545,7 @@ IL_0115:
 		float L_63;
 		L_63 = Follow_get_VerticalMaxDistance_mD3B8FC1EF4134D671D352544B61F7A61376A20B7_inline(__this, /*hidden argument*/NULL);
 		float L_64;
-		L_64 = Mathf_Clamp_m2416F3B785C8F135863E3D17E5B0CB4174797B87(L_57, ((float)il2cpp_codegen_subtract((float)L_59, (float)L_60)), ((float)il2cpp_codegen_add((float)L_62, (float)L_63)), /*hidden argument*/NULL);
+		L_64 = Mathf_Clamp_m2416F3B785C8F135863E3D17E5B0CB4174797B87(L_57, ((float)il2cpp_codegen_add((float)L_59, (float)L_60)), ((float)il2cpp_codegen_add((float)L_62, (float)L_63)), /*hidden argument*/NULL);
 		L_55->set_y_3(L_64);
 	}
 

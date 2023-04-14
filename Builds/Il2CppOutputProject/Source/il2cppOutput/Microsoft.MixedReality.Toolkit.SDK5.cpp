@@ -27565,12 +27565,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PinchSlider__ctor_mBF89BA52F6179BC2C2141
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// private float sliderValue = 0.5f;
-		__this->set_sliderValue_5((0.5f));
-		// private float sliderStartDistance = -.5f;
-		__this->set_sliderStartDistance_11((-0.5f));
-		// private float sliderEndDistance = .5f;
-		__this->set_sliderEndDistance_12((0.5f));
+		// private float sliderValue = 1f;
+		__this->set_sliderValue_5((1.0f));
+		// private float sliderStartDistance = -2f;
+		__this->set_sliderStartDistance_11((-2.0f));
+		// private float sliderEndDistance = 2f;
+		__this->set_sliderEndDistance_12((2.0f));
 		// public SliderEvent OnValueUpdated = new SliderEvent();
 		SliderEvent_t7F3FCDF9D4C85626093C507549F55C0653CBA2C2 * L_0 = (SliderEvent_t7F3FCDF9D4C85626093C507549F55C0653CBA2C2 *)il2cpp_codegen_object_new(SliderEvent_t7F3FCDF9D4C85626093C507549F55C0653CBA2C2_il2cpp_TypeInfo_var);
 		SliderEvent__ctor_m432631B035A0C41B4485F57F8FF3D48F024E8527(L_0, /*hidden argument*/NULL);

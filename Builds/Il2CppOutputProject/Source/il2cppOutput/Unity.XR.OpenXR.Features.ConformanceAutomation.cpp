@@ -793,6 +793,8 @@ public:
 	int32_t ___priority_12;
 	// System.Boolean UnityEngine.XR.OpenXR.Features.OpenXRFeature::required
 	bool ___required_13;
+	// System.Boolean UnityEngine.XR.OpenXR.Features.OpenXRFeature::internalFieldsUpdated
+	bool ___internalFieldsUpdated_14;
 
 public:
 	inline static int32_t get_offset_of_m_enabled_4() { return static_cast<int32_t>(offsetof(OpenXRFeature_tBDE19E44A01E5E54925EAF67574691F11E88CDAA, ___m_enabled_4)); }
@@ -871,6 +873,14 @@ public:
 	{
 		___required_13 = value;
 	}
+
+	inline static int32_t get_offset_of_internalFieldsUpdated_14() { return static_cast<int32_t>(offsetof(OpenXRFeature_tBDE19E44A01E5E54925EAF67574691F11E88CDAA, ___internalFieldsUpdated_14)); }
+	inline bool get_internalFieldsUpdated_14() const { return ___internalFieldsUpdated_14; }
+	inline bool* get_address_of_internalFieldsUpdated_14() { return &___internalFieldsUpdated_14; }
+	inline void set_internalFieldsUpdated_14(bool value)
+	{
+		___internalFieldsUpdated_14 = value;
+	}
 };
 
 struct OpenXRFeature_tBDE19E44A01E5E54925EAF67574691F11E88CDAA_StaticFields
@@ -902,25 +912,25 @@ struct ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_St
 {
 public:
 	// System.UInt64 UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::xrInstance
-	uint64_t ___xrInstance_16;
+	uint64_t ___xrInstance_17;
 	// System.UInt64 UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature::xrSession
-	uint64_t ___xrSession_17;
+	uint64_t ___xrSession_18;
 
 public:
-	inline static int32_t get_offset_of_xrInstance_16() { return static_cast<int32_t>(offsetof(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields, ___xrInstance_16)); }
-	inline uint64_t get_xrInstance_16() const { return ___xrInstance_16; }
-	inline uint64_t* get_address_of_xrInstance_16() { return &___xrInstance_16; }
-	inline void set_xrInstance_16(uint64_t value)
+	inline static int32_t get_offset_of_xrInstance_17() { return static_cast<int32_t>(offsetof(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields, ___xrInstance_17)); }
+	inline uint64_t get_xrInstance_17() const { return ___xrInstance_17; }
+	inline uint64_t* get_address_of_xrInstance_17() { return &___xrInstance_17; }
+	inline void set_xrInstance_17(uint64_t value)
 	{
-		___xrInstance_16 = value;
+		___xrInstance_17 = value;
 	}
 
-	inline static int32_t get_offset_of_xrSession_17() { return static_cast<int32_t>(offsetof(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields, ___xrSession_17)); }
-	inline uint64_t get_xrSession_17() const { return ___xrSession_17; }
-	inline uint64_t* get_address_of_xrSession_17() { return &___xrSession_17; }
-	inline void set_xrSession_17(uint64_t value)
+	inline static int32_t get_offset_of_xrSession_18() { return static_cast<int32_t>(offsetof(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields, ___xrSession_18)); }
+	inline uint64_t get_xrSession_18() const { return ___xrSession_18; }
+	inline uint64_t* get_address_of_xrSession_18() { return &___xrSession_18; }
+	inline void set_xrSession_18(uint64_t value)
 	{
-		___xrSession_17 = value;
+		___xrSession_18 = value;
 	}
 };
 
@@ -1042,13 +1052,13 @@ IL_0018:
 		// xrInstance = instance;
 		uint64_t L_1 = ___instance0;
 		IL2CPP_RUNTIME_CLASS_INIT(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var);
-		((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->set_xrInstance_16(L_1);
+		((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->set_xrInstance_17(L_1);
 		// xrSession = 0ul;
-		((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->set_xrSession_17(((int64_t)((int64_t)0)));
+		((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->set_xrSession_18(((int64_t)((int64_t)0)));
 		// initialize(xrGetInstanceProcAddr, xrInstance);
 		intptr_t L_2;
 		L_2 = OpenXRFeature_get_xrGetInstanceProcAddr_mCE13D33E6318D9E8F79E3B5854B0F3E6C28BD6A0(/*hidden argument*/NULL);
-		uint64_t L_3 = ((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->get_xrInstance_16();
+		uint64_t L_3 = ((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->get_xrInstance_17();
 		ConformanceAutomationFeature_initialize_m428D53A8FB6A4172ECD07DB64E66CAB26B413BA9((intptr_t)L_2, L_3, /*hidden argument*/NULL);
 		// return true;
 		return (bool)1;
@@ -1069,7 +1079,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnInstanceD
 		OpenXRFeature_OnInstanceDestroy_mFB52047C516C276A325A88A79396F07FB366F74D(__this, L_0, /*hidden argument*/NULL);
 		// ConformanceAutomationFeature.xrInstance = 0ul;
 		IL2CPP_RUNTIME_CLASS_INIT(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var);
-		((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->set_xrInstance_16(((int64_t)((int64_t)0)));
+		((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->set_xrInstance_17(((int64_t)((int64_t)0)));
 		// }
 		return;
 	}
@@ -1087,9 +1097,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnSessionCr
 		// ConformanceAutomationFeature.xrSession = xrSessionId;
 		uint64_t L_0 = ___xrSessionId0;
 		IL2CPP_RUNTIME_CLASS_INIT(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var);
-		((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->set_xrSession_17(L_0);
+		((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->set_xrSession_18(L_0);
 		// base.OnSessionCreate(xrSession);
-		uint64_t L_1 = ((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->get_xrSession_17();
+		uint64_t L_1 = ((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->get_xrSession_18();
 		OpenXRFeature_OnSessionCreate_m0849F5B51060299E7A9BB0C0889B8F1192F3253D(__this, L_1, /*hidden argument*/NULL);
 		// }
 		return;
@@ -1110,7 +1120,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ConformanceAutomationFeature_OnSessionDe
 		OpenXRFeature_OnSessionDestroy_mF59280CC5721569A36955F870D65872CFB2A614B(__this, L_0, /*hidden argument*/NULL);
 		// ConformanceAutomationFeature.xrSession = 0ul;
 		IL2CPP_RUNTIME_CLASS_INIT(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var);
-		((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->set_xrSession_17(((int64_t)((int64_t)0)));
+		((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->set_xrSession_18(((int64_t)((int64_t)0)));
 		// }
 		return;
 	}
@@ -1131,7 +1141,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		//     StringToPath(topLevelPath),
 		//     isActive);
 		IL2CPP_RUNTIME_CLASS_INIT(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var);
-		uint64_t L_0 = ((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->get_xrSession_17();
+		uint64_t L_0 = ((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->get_xrSession_18();
 		String_t* L_1 = ___interactionProfile0;
 		uint64_t L_2;
 		L_2 = OpenXRFeature_GetCurrentInteractionProfile_m8902221C9F61025DD6D346D5EAA1DFA3CCC84807(L_1, /*hidden argument*/NULL);
@@ -1160,7 +1170,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		//     StringToPath(inputSourcePath),
 		//     state);
 		IL2CPP_RUNTIME_CLASS_INIT(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var);
-		uint64_t L_0 = ((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->get_xrSession_17();
+		uint64_t L_0 = ((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->get_xrSession_18();
 		String_t* L_1 = ___topLevelPath0;
 		uint64_t L_2;
 		L_2 = OpenXRFeature_StringToPath_mF1A1821902C5126999DDD20FEFDD8E7EAD8FF865(L_1, /*hidden argument*/NULL);
@@ -1189,7 +1199,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		//     StringToPath(inputSourcePath),
 		//     state);
 		IL2CPP_RUNTIME_CLASS_INIT(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var);
-		uint64_t L_0 = ((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->get_xrSession_17();
+		uint64_t L_0 = ((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->get_xrSession_18();
 		String_t* L_1 = ___topLevelPath0;
 		uint64_t L_2;
 		L_2 = OpenXRFeature_StringToPath_mF1A1821902C5126999DDD20FEFDD8E7EAD8FF865(L_1, /*hidden argument*/NULL);
@@ -1218,7 +1228,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		//     StringToPath(inputSourcePath),
 		//     new XrVector2f(state));
 		IL2CPP_RUNTIME_CLASS_INIT(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var);
-		uint64_t L_0 = ((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->get_xrSession_17();
+		uint64_t L_0 = ((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->get_xrSession_18();
 		String_t* L_1 = ___topLevelPath0;
 		uint64_t L_2;
 		L_2 = OpenXRFeature_StringToPath_mF1A1821902C5126999DDD20FEFDD8E7EAD8FF865(L_1, /*hidden argument*/NULL);
@@ -1251,7 +1261,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		//     GetCurrentAppSpace(),
 		//     new XrPosef(position, orientation));
 		IL2CPP_RUNTIME_CLASS_INIT(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var);
-		uint64_t L_0 = ((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->get_xrSession_17();
+		uint64_t L_0 = ((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->get_xrSession_18();
 		String_t* L_1 = ___topLevelPath0;
 		uint64_t L_2;
 		L_2 = OpenXRFeature_StringToPath_mF1A1821902C5126999DDD20FEFDD8E7EAD8FF865(L_1, /*hidden argument*/NULL);
@@ -1290,7 +1300,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ConformanceAutomationFeature_Conformance
 		//     new XrVector3f(-1.0f * angular) // Angular velocity is multiplied by -1 in the OpenXR plugin so it must be negated here as well
 		// );
 		IL2CPP_RUNTIME_CLASS_INIT(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var);
-		uint64_t L_0 = ((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->get_xrSession_17();
+		uint64_t L_0 = ((ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_StaticFields*)il2cpp_codegen_static_fields_for(ConformanceAutomationFeature_t478B4CAC5B595A158989531913A8BDC16D7837A9_il2cpp_TypeInfo_var))->get_xrSession_18();
 		String_t* L_1 = ___topLevelPath0;
 		uint64_t L_2;
 		L_2 = OpenXRFeature_StringToPath_mF1A1821902C5126999DDD20FEFDD8E7EAD8FF865(L_1, /*hidden argument*/NULL);

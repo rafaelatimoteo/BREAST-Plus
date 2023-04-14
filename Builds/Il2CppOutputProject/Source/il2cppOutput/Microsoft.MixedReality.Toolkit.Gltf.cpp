@@ -24515,7 +24515,7 @@ IL_0341:
 			Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * L_107 = __this->get_U3CtextureU3E5__3_6();
 			NullCheck(L_107);
 			bool L_108;
-			L_108 = VirtFuncInvoker0< bool >::Invoke(10 /* System.Boolean UnityEngine.Texture::get_isReadable() */, L_107);
+			L_108 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean UnityEngine.Texture::get_isReadable() */, L_107);
 			if (!L_108)
 			{
 				goto IL_0577;
@@ -24549,7 +24549,7 @@ IL_0372:
 			Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * L_113 = V_3;
 			NullCheck(L_113);
 			bool L_114;
-			L_114 = VirtFuncInvoker0< bool >::Invoke(10 /* System.Boolean UnityEngine.Texture::get_isReadable() */, L_113);
+			L_114 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean UnityEngine.Texture::get_isReadable() */, L_113);
 			if (!L_114)
 			{
 				goto IL_0386;
@@ -25567,7 +25567,7 @@ IL_0326:
 			Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * L_109 = __this->get_U3CtextureU3E5__3_6();
 			NullCheck(L_109);
 			bool L_110;
-			L_110 = VirtFuncInvoker0< bool >::Invoke(10 /* System.Boolean UnityEngine.Texture::get_isReadable() */, L_109);
+			L_110 = VirtFuncInvoker0< bool >::Invoke(11 /* System.Boolean UnityEngine.Texture::get_isReadable() */, L_109);
 			if (!L_110)
 			{
 				goto IL_0527;

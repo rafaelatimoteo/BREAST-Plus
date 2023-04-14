@@ -106,6 +106,10 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Async_CodeGen.c">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Examples_CodeGen.c">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Extensions.HandPhysics_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Extensions.SceneTransitionService_CodeGen.c">
@@ -176,6 +180,10 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.InputSystem_CodeGen.c">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.Mathematics_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.RenderPipeline.Universal.ShaderLibrary_CodeGen.c">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.RenderPipelines.Core.Runtime_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.RenderPipelines.Universal.Runtime_CodeGen.c">
@@ -193,6 +201,8 @@
     <ClCompile Include="Source\il2cppOutput\Unity.XR.Management_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.OpenXR.Features.ConformanceAutomation_CodeGen.c">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.XR.OpenXR.Features.MetaQuestSupport_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.OpenXR.Features.MockRuntime_CodeGen.c">
     </ClCompile>
@@ -254,6 +264,8 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.TilemapModule_CodeGen.c">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\UnityEngine.UIElementsModule_CodeGen.c">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.UIElementsNativeModule_CodeGen.c">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.UIModule_CodeGen.c">
@@ -291,6 +303,10 @@
     <ClCompile Include="Source\il2cppOutput\GenericMethods12.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\GenericMethods13.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\GenericMethods14.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\GenericMethods15.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\GenericMethods2.cpp">
     </ClCompile>
@@ -390,7 +406,27 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics45.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics46.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics47.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics48.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics49.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics5.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics50.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics51.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics52.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics53.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics54.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics55.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics6.cpp">
     </ClCompile>
@@ -472,9 +508,41 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs108.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs109.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs11.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs110.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs111.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs112.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs113.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs114.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs115.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs116.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs117.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs118.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs119.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs12.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs120.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs121.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs122.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs123.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs124.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs13.cpp">
     </ClCompile>
@@ -752,9 +820,51 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions134.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions135.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions136.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions137.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions138.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions139.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions14.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions140.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions141.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions142.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions143.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions144.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions145.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions146.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions147.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions148.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions149.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions15.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions150.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions151.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions152.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions153.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions154.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions155.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions16.cpp">
     </ClCompile>
@@ -960,6 +1070,14 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Demos.UX.Interactables_Attr.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Examples.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Examples_Attr.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Extensions.HandPhysics.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Microsoft.MixedReality.Toolkit.Extensions.HandPhysics_Attr.cpp">
@@ -1098,6 +1216,8 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\mscorlib2.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\mscorlib20.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\mscorlib3.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\mscorlib4.cpp">
@@ -1169,6 +1289,8 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.InputSystem1.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.InputSystem10.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.InputSystem2.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.InputSystem3.cpp">
@@ -1181,7 +1303,19 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.InputSystem7.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.InputSystem8.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.InputSystem9.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.InputSystem_Attr.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.Mathematics.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.Mathematics_Attr.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.RenderPipeline.Universal.ShaderLibrary.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.RenderPipeline.Universal.ShaderLibrary_Attr.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.RenderPipelines.Core.Runtime.cpp">
     </ClCompile>
@@ -1192,6 +1326,12 @@
     <ClCompile Include="Source\il2cppOutput\Unity.RenderPipelines.Core.Runtime_Attr.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.RenderPipelines.Universal.Runtime.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.RenderPipelines.Universal.Runtime1.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.RenderPipelines.Universal.Runtime2.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.RenderPipelines.Universal.Runtime3.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.RenderPipelines.Universal.Runtime_Attr.cpp">
     </ClCompile>
@@ -1215,9 +1355,13 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.ARFoundation.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.XR.ARFoundation1.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.ARFoundation_Attr.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.ARSubsystems.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.XR.ARSubsystems1.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.ARSubsystems_Attr.cpp">
     </ClCompile>
@@ -1234,6 +1378,10 @@
     <ClCompile Include="Source\il2cppOutput\Unity.XR.OpenXR.Features.ConformanceAutomation.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.OpenXR.Features.ConformanceAutomation_Attr.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.XR.OpenXR.Features.MetaQuestSupport.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.XR.OpenXR.Features.MetaQuestSupport_Attr.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.XR.OpenXR.Features.MockRuntime.cpp">
     </ClCompile>
@@ -1282,6 +1430,8 @@
     <ClCompile Include="Source\il2cppOutput\UnityEngine.CoreModule1.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.CoreModule2.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\UnityEngine.CoreModule3.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.CoreModule_Attr.cpp">
     </ClCompile>
@@ -1366,6 +1516,10 @@
     <ClCompile Include="Source\il2cppOutput\UnityEngine.UI2.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.UI3.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\UnityEngine.UIElementsModule.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\UnityEngine.UIElementsModule_Attr.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\UnityEngine.UIElementsNativeModule.cpp">
     </ClCompile>
