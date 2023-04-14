@@ -33,6 +33,7 @@ EditorBuildSettings:
     path: Assets/DIEAP Plus Content/DIEAPScene.unity
     guid: d6865c25a92f7054793ad37c25f571b4
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 071d523b0d8297148bb8f8dc927e8d09, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 21fdd863b2432704aa3df9ed8f665dbb, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 46a68095e091f6545ac99ab9f9684e7c, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: b6c72596dbc486d43a11a7a0b55c8266, type: 2}

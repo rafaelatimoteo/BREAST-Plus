@@ -1,5 +1,4 @@
-﻿// Copyright (c) Microsoft Corporation.
-// Licensed under the MIT License.
+﻿// Licensed under the MIT License.
 
 using Microsoft.MixedReality.Toolkit.Experimental.Physics;
 using Microsoft.MixedReality.Toolkit.Input;
@@ -28,6 +27,8 @@ namespace Microsoft.MixedReality.Toolkit.UI.BoundsControl
         IMixedRealityFocusHandler,
         IBoundsTargetProvider
     {
+
+
         #region Serialized Fields and Properties
         [SerializeField]
         [Tooltip("The object that the bounds control rig will be modifying.")]
@@ -333,7 +334,7 @@ namespace Microsoft.MixedReality.Toolkit.UI.BoundsControl
         [SerializeField]
         [Range(0, 1)]
         [Tooltip("Enter amount representing amount of smoothing to apply to the rotation. Smoothing of 0 means no smoothing. Max value means no change to value.")]
-        private float rotateLerpTime = 0.001f;
+        private float rotateLerpTime = 0.6f;
 
         /// <summary>
         /// Enter amount representing amount of smoothing to apply to the rotation. Smoothing of 0 means no smoothing. Max value means no change to value.
@@ -362,7 +363,7 @@ namespace Microsoft.MixedReality.Toolkit.UI.BoundsControl
         [Range(0, 1)]
         [Tooltip("Enter amount representing amount of smoothing to apply to the translation. " +
             "Smoothing of 0 means no smoothing. Max value means no change to value.")]
-        private float translateLerpTime = 0.001f;
+        private float translateLerpTime = 0.9f;
 
         /// <summary>
         /// Enter amount representing amount of smoothing to apply to the translation. Smoothing of 0 
@@ -1206,8 +1207,9 @@ namespace Microsoft.MixedReality.Toolkit.UI.BoundsControl
                 TransformFlags transformUpdated = 0;
                 if (transformType == HandleType.Rotation)
                 {
-                    Vector3 initDir = Vector3.ProjectOnPlane(initialGrabPoint - Target.transform.position, currentRotationAxis).normalized;
-                    Vector3 currentDir = Vector3.ProjectOnPlane(currentGrabPoint - Target.transform.position, currentRotationAxis).normalized;
+
+                    Vector3 initDir = Vector3.ProjectOnPlane((initialGrabPoint - Target.transform.position), currentRotationAxis).normalized;
+                    Vector3 currentDir = Vector3.ProjectOnPlane((currentGrabPoint - Target.transform.position), currentRotationAxis).normalized;
                     Quaternion goal = Quaternion.FromToRotation(initDir, currentDir) * initialRotationOnGrabStart;
                     MixedRealityTransform constraintRotation = MixedRealityTransform.NewRotate(goal);
                     if (EnableConstraints && constraintsManager != null)
@@ -1286,7 +1288,7 @@ namespace Microsoft.MixedReality.Toolkit.UI.BoundsControl
                 }
                 else if (transformType == HandleType.Translation)
                 {
-                    Vector3 translateVectorAlongAxis = Vector3.Project(currentGrabPoint - initialGrabPoint, currentTranslationAxis);
+                    Vector3 translateVectorAlongAxis = Vector3.Project((currentGrabPoint - initialGrabPoint), currentTranslationAxis);
 
                     var goal = initialPositionOnGrabStart + translateVectorAlongAxis;
                     MixedRealityTransform constraintTranslate = MixedRealityTransform.NewTranslate(goal);

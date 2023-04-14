@@ -48,4 +48,19 @@ public class PressedButton : MonoBehaviour
             colorOff.SetActive(true);
         }
     }
+
+    public void on_off()
+    {
+        if (colorOn.activeSelf)
+        {
+            colorOn.SetActive(false);
+            colorOff.SetActive(true);
+        }
+
+        else
+        {
+            colorOn.SetActive(true);
+            colorOff.SetActive(false);
+        }
+    }
 }

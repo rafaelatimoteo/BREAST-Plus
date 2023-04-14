@@ -26,7 +26,7 @@ public class SliderChangeTransparency : MonoBehaviour
 
         newValue = transparencySlider.SliderValue / 255;
 
-        convertedValue = (newValue * 20) / 255;
+        convertedValue = (newValue * 30) / 255;
 
         //Debug.Log("NEW: " + convertedValue);
 
