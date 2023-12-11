@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.3/Demos - UX/Slider/Scenes/SliderExample.unity
     guid: 086aad2912678d04e968264b2398004b
   - enabled: 1
-    path: Assets/DIEAP Plus Content/DIEAPScene.unity
+    path: Assets/BREAST+ Content/DIEAPScene.unity
     guid: d6865c25a92f7054793ad37c25f571b4
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 071d523b0d8297148bb8f8dc927e8d09, type: 2}
