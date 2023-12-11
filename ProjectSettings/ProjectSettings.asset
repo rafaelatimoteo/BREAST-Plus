@@ -137,10 +137,11 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: -2239464841840827263, guid: b6c72596dbc486d43a11a7a0b55c8266, type: 2}
   - {fileID: -6477180022827606961, guid: 46a68095e091f6545ac99ab9f9684e7c, type: 2}
   - {fileID: -5465766661504506577, guid: 21fdd863b2432704aa3df9ed8f665dbb, type: 2}
-  - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -620,10 +621,10 @@ PlayerSettings:
   metroPackageName: BREASPlus
   metroPackageVersion: 1.0.0.0
   metroCertificatePath: Assets/WSATestCertificate.pfx
-  metroCertificatePassword: '>9<:'
-  metroCertificateSubject: Rafaela Timoteo IST
-  metroCertificateIssuer: Rafaela Timoteo IST
-  metroCertificateNotAfter: 00db1c4dbb83d901
+  metroCertificatePassword: =>?8
+  metroCertificateSubject: RafaelaDSL
+  metroCertificateIssuer: RafaelaDSL
+  metroCertificateNotAfter: 80972c11554bdb01
   metroApplicationDescription: Template_3D
   wsaImages: {}
   metroTileShortName: MRTK
