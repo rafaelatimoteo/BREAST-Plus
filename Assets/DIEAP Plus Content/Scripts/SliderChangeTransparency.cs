@@ -6,8 +6,11 @@ using Microsoft.MixedReality.Toolkit.UI;
 public class SliderChangeTransparency : MonoBehaviour
 {
     public Renderer rend;
-    public PinchSlider transparencySlider;
     private double newValue, convertedValue;
+
+    [SerializeField] private Material material;
+    [SerializeField] private Renderer modelo;
+    [SerializeField] public PinchSlider slider;
 
 
     // Start is called before the first frame update
@@ -20,17 +23,27 @@ public class SliderChangeTransparency : MonoBehaviour
     }
 
     // Update is called once per frame
-    public void UpdateTransparencyValue()
-    {
-        //Debug.Log(transparencySlider.SliderValue);
+    //public void UpdateTransparencyValue()
+    //{
+    //    //Debug.Log(transparencySlider.SliderValue);
 
-        newValue = transparencySlider.SliderValue / 255;
+    //    newValue = slider.SliderValue / 255;
 
-        convertedValue = (newValue * 30) / 255;
+    //    convertedValue = (newValue * 30) / 255;
 
-        //Debug.Log("NEW: " + convertedValue);
+    //    //Debug.Log("NEW: " + convertedValue);
 
-        rend.material.SetVector("_Color", new Vector4(1, 1, 1, (float)newValue));
+    //    rend.material.SetVector("_Color", new Vector4(1, 1, 1, (float)newValue));
         
+    //}
+
+
+    public void UpdateTransparencyValue(float sliderValues)
+    {
+        Color color = modelo.material.color;
+        sliderValues = slider.SliderValue;
+        color.a = sliderValues;
+        modelo.material.color = color;
+
     }
 }
